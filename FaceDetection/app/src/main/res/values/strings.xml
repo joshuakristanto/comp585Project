@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FaceDetection</string>
+    <string name="take_picture">Take picture</string>
+    <string name="title_camera_permission">Permission</string>
+    <string name="text_camera_permission">This app needs camera acccess</string>
+    <string name="ok">Ok</string>
+</resources>
