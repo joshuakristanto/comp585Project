@@ -15,7 +15,12 @@
             android:id="@+id/text"
             android:layout_width="match_parent"
             android:layout_height="51dp"
-            android:text="Nod or shake " />
+            android:text="Nod or shake "
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:background="@drawable/back"
+            android:freezesText="true"
+            android:textColor="@color/white"/>
 
         <com.otaliastudios.cameraview.CameraView
             android:id="@+id/cameraView"

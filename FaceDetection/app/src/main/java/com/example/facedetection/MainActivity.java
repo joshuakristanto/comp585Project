@@ -732,7 +732,7 @@ public class MainActivity extends AppCompatActivity {
             System.out.println("X2 " +x2 +" Y2 " +y2);
             System.out.println("DOWN");
             textView.setText(" Yes "+result);
-            
+
         }
 //
 
