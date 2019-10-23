@@ -705,8 +705,8 @@ public class MainActivity extends AppCompatActivity {
             System.out.println("X1 " +x1 +" Y1 " +y1);
             System.out.println("X2 " +x2 +" Y2 " +y2);
             System.out.println("RIGHT");
-            textView.setText(" NO "+result);
-            firstX = true;
+            textView.setText(" NO ");
+            firstY = true;
             firstY = false;
         }
 
@@ -731,7 +731,8 @@ public class MainActivity extends AppCompatActivity {
             System.out.println("X1 " +x1 +" Y1 " +y1);
             System.out.println("X2 " +x2 +" Y2 " +y2);
             System.out.println("DOWN");
-            textView.setText(" Yes "+result);
+            textView.setText(" Yes ");
+            firstX = false;
 
         }
 //
