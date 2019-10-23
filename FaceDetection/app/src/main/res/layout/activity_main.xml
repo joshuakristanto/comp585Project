@@ -15,29 +15,29 @@
             android:id="@+id/text"
             android:layout_width="match_parent"
             android:layout_height="51dp"
-            android:text="Hello World!" />
+            android:text="Nod or shake " />
 
         <com.otaliastudios.cameraview.CameraView
             android:id="@+id/cameraView"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <Button
-            android:id="@+id/btn_takepicture"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="@string/take_picture" />
+<!--        <Button-->
+<!--            android:id="@+id/btn_takepicture"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            android:text="@string/take_picture" />-->
 
-        <TextureView
-            android:id="@+id/texture"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/btn_takepicture"
-            android:layout_alignParentTop="true" />
+<!--        <TextureView-->
+<!--            android:id="@+id/texture"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_above="@+id/btn_takepicture"-->
+<!--            android:layout_alignParentTop="true" />-->
 
     </LinearLayout>
 
